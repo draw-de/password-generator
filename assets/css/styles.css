@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.section {
+  background: rgb(228, 228, 228);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+header {
+  text-align: center;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#password {
+  left: 25%;
+  border: dashed 5px rgb(109, 109, 109);
+  border-radius: 5px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100px;
+  width: 50px;
+  color: rgb(109, 109, 109);
+}
+button {
+  margin-top: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: gray;
+}
+#genBtn {
+  background-color: rgb(255, 83, 83);
+}
