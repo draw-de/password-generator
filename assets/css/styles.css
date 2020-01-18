@@ -6,6 +6,7 @@ body {
   text-align: center;
   padding: 10px;
   border-radius: 10px;
+  height: 500px;
 }
 header {
   text-align: center;
@@ -16,23 +17,25 @@ h2 {
   font-weight: 600;
 }
 #password {
-  left: 25%;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  padding: 50px;
+  width: 550px;
+  height: 185px;
+  text-align: center;
   border: dashed 5px rgb(109, 109, 109);
   border-radius: 5px;
-  padding-bottom: 50px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 100px;
-  width: 50px;
   color: rgb(109, 109, 109);
 }
 button {
-  margin-top: 10px;
+  margin-top: 20px;
   border: solid 1px;
   border-radius: 5px;
   background-color: gray;
 }
-#genBtn {
+#generate {
   background-color: rgb(255, 83, 83);
+}
+.settings {
+  padding-top: 10px;
 }
